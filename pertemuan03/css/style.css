@@ -1,16 +1,24 @@
-.pembuka{
-    background-color: skyblue;
+.title {
+    /* untuk mengatur warna backgorund */
+    background-color: rgb(41, 58, 64);
+    /* untuk mengatur ukuran font */
     font-size: large;
+    /* untuk mengatur jarak dari dalam box atau kotak */
     padding: 100px;
+    /* untuk mengatur semua jarak dari luar box atau kotak */
     margin: 50px;
+    /* untuk mengatur jarak dari bawah karena menambah "bottom" */
     margin-bottom: 100px;
 }
-.badan{
-    background-color: forestgreen;
+
+.tes {
+    background-color: rgb(94, 100, 94);
 
 }
 
-/* Pakai id */
-#first{
-    background-color: dodgerblue;
+/* ID */
+#first {
+    background-color: rgb(64, 82, 100);
 }
+
+/* yang menggunakan pagar itu untuk id dan menggunakan titik itu untuk class */
