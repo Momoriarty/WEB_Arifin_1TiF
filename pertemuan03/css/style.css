@@ -1,3 +1,16 @@
-body {
-    background-color: blanchedalmond;
+.pembuka{
+    background-color: skyblue;
+    font-size: large;
+    padding: 100px;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+.badan{
+    background-color: forestgreen;
+
+}
+
+/* Pakai id */
+#first{
+    background-color: dodgerblue;
 }
