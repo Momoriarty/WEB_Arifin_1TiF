@@ -1,17 +1,18 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A</title>
-    <link rel="stylesheet" href="src/output.css">
+    <title>Document</title>
 </head>
-
-<body>
-    <h1 class="text-3xl font-bold text-center text-red-500 bg-blue-200 p-4 m-4 rounded-lg shadow-lg">
-        Hello world!
-    </h1>
-</body>
+<frameset rows="7%,*,7%*" border="0">
+    <frame name="navbar" scrolling="no" src="layout/navbar.html" />
+    <frameset cols="15%,*">
+        <frame name="sidebar" scrolling="no" src="layout/sidebar.html" />
+        <frame name="content" src="welcome.html" />
+    </frameset>
+    <frame name="footer" scrolling="no" src="layout/footer.html" />
+</frameset>
 
 </html>
